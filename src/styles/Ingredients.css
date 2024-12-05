@@ -1,0 +1,42 @@
+h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+li {
+  font-weight: 300;
+}
+.ingredients {
+  margin-top: 30px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients li {
+  padding-left: 15px;
+}
+/* Responsive design */
+@media (min-width: 375px) {
+  h2 {
+    font-size: 38px;
+  }
+  .ingredients {
+    margin: 0 65px;
+  }
+  .ingredients li {
+    line-height: 35px;
+    font-size: 24px;
+  }
+}
+li {
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  .ingredients h2 {
+    font-size: 30px;
+  }
+  .ingredients {
+    margin: 30px 0;
+  }
+}

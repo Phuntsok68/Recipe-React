@@ -1,0 +1,48 @@
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  font-weight: 300;
+  padding: 15px 0 15px 20px;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+li span {
+  font-weight: 500;
+  color: hsl(24, 5%, 18%);
+}
+
+.preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.preparation li {
+  padding-left: 15px;
+}
+.preparation-ul {
+  position: relative;
+  right: 15px;
+}
+li {
+  line-height: 30px;
+}
+/* Responsive design */
+@media (min-width: 375px) {
+  .preparation {
+    margin: 10px 65px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .preparation li {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 28px;
+  }
+  .preparation {
+    margin: 30px 0;
+  }
+}

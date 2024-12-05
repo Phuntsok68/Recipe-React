@@ -1,0 +1,15 @@
+img {
+  width: 700px;
+  border-radius: 15px;
+}
+/* Responsive design */
+@media (min-width: 375px) {
+  img {
+    border-radius: 0;
+  }
+}
+@media (min-width: 768px) {
+  img {
+    border-radius: 15px;
+  }
+}
